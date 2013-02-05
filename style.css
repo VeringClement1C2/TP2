@@ -1,7 +1,7 @@
 body
 {
     background: #DCDCDC;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #container
@@ -13,6 +13,7 @@ body
 {
 	background: #223645;
 	padding: 20px;
+	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
@@ -23,12 +24,13 @@ body
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
-	text-color: #FFF5EF;
-
 
 }
 
-#header h1 { margin: 0; }
+#header h1 {
+    margin: 0; 
+    color:#FFF5EF;
+}
 
 #navigation
 {
@@ -63,6 +65,7 @@ body
 
 #edito
 {
+    background-color: #FFF5EF; 
 	clear: left;
 	padding: 20px;
 	margin: 20px;
@@ -87,6 +90,7 @@ body
 
 #news
 {	
+    background-color: #FFF5EF; 
 	float: left;
 	width: 40%;
 	padding: 20px;
@@ -108,6 +112,17 @@ body
 	clear: both;
 	background: #ccc;
 	text-align: right;
-	padding: 20px;
 	height: 1%;
+	padding: 20px;
+	margin: 20px;
+	-webkit-border-radius: 18px;
+	border-radius: 18px;
+	-webkit-box-shadow: 0px 0px 6px #000000;
+	box-shadow: 0px 0px 6px #000000;
+	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
+	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	opacity: 0.83;
 }
